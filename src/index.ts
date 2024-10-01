@@ -7,8 +7,8 @@ app.get('/', (c) => {
 })
 
 app.get('/hello/:name', (c) => {
-  const name = c.req.param.name;
-  return c.text(`Hello, ${name}!`)
+  const name = c.req.param('name');
+  return c.text(`Hello, ${name} 🔥🔥!`)
 })
 
 app.get('/test', (c) => {
