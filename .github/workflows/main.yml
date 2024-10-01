@@ -15,5 +15,5 @@ jobs:
               uses: cloudflare/wrangler-action@v3
               with:
                   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                  preCommands: wrangler whoami
-                  command: npx wragler deploy
+                  preCommands: yarn wrangler:check-user
+                  command: yarn deploy
