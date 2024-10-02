@@ -2,8 +2,8 @@ name = "car-thing-api"
 compatibility_date = "2024-10-01"
 compatibility_flags = [ "nodejs_compat" ]
 
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+FOO = "bar"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
